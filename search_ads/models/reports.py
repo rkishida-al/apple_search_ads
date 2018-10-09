@@ -127,13 +127,13 @@ def _report(campaign=None,
             "orderBy": [
                 {"field": "modificationTime", "sortOrder": "DESCENDING"}
             ],
-            "conditions": [
-                {
-                    "field":"servingStatus",
-                    "operator":"IN",
-                    "values":["NOT_RUNNING"]
-                }
-            ],
+#             "conditions": [
+#                 {
+#                     "field":"servingStatus",
+#                     "operator":"IN",
+#                     "values":["NOT_RUNNING"]
+#                 }
+#             ],
             "pagination": {"offset": 0, "limit": 1000}
         }
 
